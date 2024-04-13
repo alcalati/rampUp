@@ -1,22 +1,37 @@
-nav{
-  display:grid;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  background: aliceblue;
-  font-family: sans-serif;
-  position:fixed;
-  top:0;
-  width:100%;
-}
-nav .logo{
-  font-size: 24px;
-  font-weight:black;
-}
-nav .barnav{
-  display:grid;
-  grid-template-columns: repeat(4,auto);
-  margin-right: 30px;
-}
-nav .barnav div{
-  padding: 10px 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="logo">
+    <h1>FakeWeb</h1>
+  </div>
+  <div class="formRegister">
+    <h2>Register</h2>
+    <form action="" id="form" class="form" >
+      <p>Username</p>
+      <input type="text" name="username" id="username" placeholder="Name">
+      <p>Password</p>
+      <input type="password" name="password" id="password" placeholder="Password">
+    </form>
+    <br>
+    <a href="register.html">¿No tienes cuenta? Registrate!</a>
+  </div>
+
+  <nav>
+    <div class="barnav">
+      <div><a href="">About Us</a></div>
+      <div><a href="contactUs">Contact Us</a></div>
+      <div><a href="rrss">RRSS</a></div>
+      <div><a href="faq">FAQ</a></div>
+    </div>
+  </nav>
+</body>
+
+</html>
